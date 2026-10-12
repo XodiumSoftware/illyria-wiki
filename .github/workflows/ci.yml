@@ -140,7 +140,7 @@ jobs:
       !contains(github.event.head_commit.message, '[ci-skip]')
     environment:
       name: production
-      url: https://wiki.illyria.net
+      url: https://wiki.illyria.cc
     permissions:
       contents: read
     steps:
