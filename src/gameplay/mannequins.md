@@ -1,6 +1,7 @@
 # Mannequins
 
-Spawn companion mannequins that track nearby entities with their heads, follow you like a pet, fight your battles, and block with a shield.
+Spawn companion mannequins that track nearby entities with their heads, follow you like a pet,
+fight your battles, and block with a shield.
 
 ## Spawning
 
@@ -39,30 +40,39 @@ Use the `/mannequin` command (operator-only) to spawn a mannequin at your locati
 
 ### Head Tracking
 
-Mannequins turn their heads to look at the nearest living entity — players, animals, monsters — within 8 blocks.
+Mannequins turn their heads to look at the nearest living entity — players, animals, monsters —
+within 8 blocks.
 
 ### Movement
 
 The **Movement** mode controls how the mannequin relates to its owner:
 
 - **Following** *(default)* — walks behind you at walking speed:
-    - Stops when within 2 blocks of you.
-    - Teleports to you when you stray more than 12 blocks away (or switch dimensions), landing on the nearest ground — never mid-air.
-- **Stationary** — remembers the location where the mode was set as its anchor and returns to it after combat or if knocked away:
-    - Walks back to the anchor at walking speed.
-    - Teleports to the anchor when pushed more than 12 blocks away, landing on the nearest ground.
+  - Stops when within 2 blocks of you.
+  - Teleports to you when you stray more than 12 blocks away (or switch dimensions), landing on the
+    nearest ground — never mid-air.
+- **Stationary** — remembers the location where the mode was set as its anchor and returns to it
+  after combat or if knocked away:
+  - Walks back to the anchor at walking speed.
+  - Teleports to the anchor when pushed more than 12 blocks away, landing on the nearest ground.
 
 Movement pauses while fighting or defending (see Combat) and resumes afterwards.
 
 ### Combat
 
-Mannequins fight back when provoked and defend their owner. Their **Combat Mode** decides how they react to nearby monsters:
+Mannequins fight back when provoked and defend their owner. Their **Combat Mode** decides how they
+react to nearby monsters:
 
-- **Aggressive** — the mannequin attacks monsters that come within 12 blocks, without waiting to be hit.
-- **Defensive** *(default)* — the mannequin stops moving and raises its shield when a monster is within 12 blocks, then fights back only once the monster strikes it. Blocked hits wear the shield down until it breaks with the usual break sound.
-- **Fleeing** — the mannequin ignores monsters completely and keeps following you instead of engaging.
+- **Aggressive** — the mannequin attacks monsters that come within 12 blocks, without waiting to be
+  hit.
+- **Defensive** *(default)* — the mannequin stops moving and raises its shield when a monster is
+  within 12 blocks, then fights back only once the monster strikes it. Blocked hits wear the shield
+  down until it breaks with the usual break sound.
+- **Fleeing** — the mannequin ignores monsters completely and keeps following you instead of
+  engaging.
 
-In combat a mannequin chases its target at sprinting speed and swings its held weapon (damage matches the weapon, e.g. a netherite sword hits for 8).
+In combat a mannequin chases its target at sprinting speed and swings its held weapon (damage
+matches the weapon, e.g. a netherite sword hits for 8).
 
 Regardless of combat mode (except Fleeing), mannequins also:
 
@@ -70,9 +80,11 @@ Regardless of combat mode (except Fleeing), mannequins also:
 - **Assist** — when you attack something, your mannequins join the fight.
 - **Defend** — when something attacks you, your mannequins attack the aggressor.
 
-The fight ends when the target dies, escapes more than 30 blocks away, or changes dimensions. Following pauses while fighting and resumes afterwards.
+The fight ends when the target dies, escapes more than 30 blocks away, or changes dimensions.
+Following pauses while fighting and resumes afterwards.
 
 ## Notes
 
-- Monsters treat mannequins as valid targets — zombies, skeletons, and creepers will detect and attack them, respecting vanilla daylight rules (e.g. spiders stay passive in daylight).
+- Monsters treat mannequins as valid targets — zombies, skeletons, and creepers will detect and
+  attack them, respecting vanilla daylight rules (e.g. spiders stay passive in daylight).
 - Only the owner can edit a mannequin or swap its equipment.
