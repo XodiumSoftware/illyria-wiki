@@ -8,17 +8,17 @@
 - **Content:** Player guides, feature documentation, and server information
 - **Related Projects:**
     - [IllyriaPlus](https://github.com/XodiumSoftware/IllyriaPlus) — Main Minecraft plugin (Kotlin/Paper)
-    - [IllyriaResourcePack](https://github.com/XodiumSoftware/IllyriaPlus/tree/main/IllyriaResourcePack) — Custom resource pack assets
+    - [illyria-resourcepack](https://github.com/XodiumSoftware/illyria-resourcepack) — Custom resource pack assets
 
 ## Technology Stack
 
-| Category         | Technology                        | Purpose                          |
-| ---------------- | --------------------------------- | -------------------------------- |
-| **Generator**    | mdBook                            | Static site generation from Markdown |
-| **Linting**      | markdownlint-cli2                 | Markdown style enforcement       |
-| **Styling**      | Custom CSS/Handlebars             | Theme overrides in `theme/`      |
-| **Versioning**   | Git (SSH)                         | Content versioning               |
-| **CI/CD**        | GitHub Actions *(planned)*        | Automated builds/deployments     |
+| Category       | Technology                 | Purpose                              |
+| -------------- | -------------------------- | ------------------------------------ |
+| **Generator**  | mdBook                     | Static site generation from Markdown |
+| **Linting**    | markdownlint-cli2          | Markdown style enforcement           |
+| **Styling**    | Custom CSS/Handlebars      | Theme overrides in `theme/`          |
+| **Versioning** | Git (SSH)                  | Content versioning                   |
+| **CI/CD**      | GitHub Actions _(planned)_ | Automated builds/deployments         |
 
 ## Quick Commands
 
@@ -100,9 +100,9 @@ Use two-column tables for structured data:
 ### Image References
 
 - Use the `mc-icon` CSS class for Minecraft texture icons:
-  ```html
-  <img class="mc-icon" alt="" src="../img/item/diamond.png"> Diamond
-  ```
+    ```html
+    <img class="mc-icon" alt="" src="../img/item/diamond.png" /> Diamond
+    ```
 - Paths are relative to the page location (`../img/...` from section pages)
 - Always include `alt=""` for decorative icons (accessibility)
 
@@ -111,8 +111,8 @@ Use two-column tables for structured data:
 Link to other pages using relative paths:
 
 ```markdown
-[Tether](tether.md)              <!-- Same section -->
-[Weapons](../weapons/index.md)   <!-- Different section -->
+[Tether](tether.md) <!-- Same section -->
+[Weapons](../weapons/index.md) <!-- Different section -->
 ```
 
 ### Naming Conventions
@@ -123,15 +123,15 @@ Link to other pages using relative paths:
 
 ## Section Guide
 
-| Section            | Purpose                                              | Examples                                    |
-| ------------------ | ---------------------------------------------------- | ------------------------------------------- |
-| `getting-started/` | New player onboarding                                | Joining, rules, resource pack setup         |
-| `gameplay/`        | Core gameplay mechanics and protections              | Anti-griefing, entity tweaks, spawn protection |
-| `enchantments/`    | Custom enchantment documentation                     | Vinemine, Tether, Nimbus, vanilla tweaks    |
-| `qol/`             | Quality-of-life improvements                         | Anvil, condensing, enderchest, nicknames    |
-| `recipes/`         | Custom crafting, smelting, and stonecutting recipes  | Chainmail, ice breakdown, log crafting      |
-| `mods/`            | Third-party mod integrations                         | JEI recipe sync, Xaero's maps, Jade         |
-| `datapacks/`       | Vanilla Minecraft datapack features                  | *(Reserved for future content)*             |
+| Section            | Purpose                                             | Examples                                       |
+| ------------------ | --------------------------------------------------- | ---------------------------------------------- |
+| `getting-started/` | New player onboarding                               | Joining, rules, resource pack setup            |
+| `gameplay/`        | Core gameplay mechanics and protections             | Anti-griefing, entity tweaks, spawn protection |
+| `enchantments/`    | Custom enchantment documentation                    | Vinemine, Tether, Nimbus, vanilla tweaks       |
+| `qol/`             | Quality-of-life improvements                        | Anvil, condensing, enderchest, nicknames       |
+| `recipes/`         | Custom crafting, smelting, and stonecutting recipes | Chainmail, ice breakdown, log crafting         |
+| `mods/`            | Third-party mod integrations                        | JEI recipe sync, Xaero's maps, Jade            |
+| `datapacks/`       | Vanilla Minecraft datapack features                 | _(Reserved for future content)_                |
 
 ## Content Workflow
 
@@ -157,7 +157,7 @@ When IllyriaPlus code changes (enchantments, mechanics, recipes):
 
 ### Adding Images
 
-1. Locate the texture in `../IllyriaPlus/IllyriaResourcePack/assets/minecraft/textures/`
+1. Locate the texture in `../illyria-resourcepack/src/assets/minecraft/textures/`
 2. Copy to `src/img/<category>/` (strip suffixes like `_front`/`_side`)
 3. Reference in pages using the `mc-icon` class (see Image References above)
 
@@ -165,15 +165,15 @@ When IllyriaPlus code changes (enchantments, mechanics, recipes):
 
 This wiki documents the **Illyria Minecraft server**, which runs the [IllyriaPlus](https://github.com/XodiumSoftware/IllyriaPlus) plugin ecosystem.
 
-| IllyriaPlus Component                           | Wiki Section        |
-| ----------------------------------------------- | ------------------- |
-| `enchantments/utility/*` (registry enchantments) | `enchantments/`     |
+| IllyriaPlus Component                            | Wiki Section                     |
+| ------------------------------------------------ | -------------------------------- |
+| `enchantments/utility/*` (registry enchantments) | `enchantments/`                  |
 | `enchantments/vanilla/*` (behavior overrides)    | `enchantments/vanilla-tweaks.md` |
-| `mechanics/player\|qol`                          | `qol/`              |
-| `mechanics/world\|entity\|server`                | `gameplay/`         |
-| `recipes/vanilla/*`                              | `recipes/index.md`  |
-| Custom weapons (smithing)                        | `weapons/` *(future)* |
-| IllyriaBridge bridges                            | `mods/`             |
+| `mechanics/player\|qol`                          | `qol/`                           |
+| `mechanics/world\|entity\|server`                | `gameplay/`                      |
+| `recipes/vanilla/*`                              | `recipes/index.md`               |
+| Custom weapons (smithing)                        | `weapons/` _(future)_            |
+| IllyriaBridge bridges                            | `mods/`                          |
 
 **Important:** When documenting features, always verify against the actual IllyriaPlus source code, not assumptions. The plugin uses compile-time constants, so check the `private const val` values in mechanic/enchantment objects.
 
@@ -228,7 +228,7 @@ done
 
 - **No automated tests** — Validate by building (`mdbook build`) and linting (markdownlint)
 - **Source of truth** — The IllyriaPlus codebase is authoritative for feature behavior; wiki content must match the code
-- **Images** — All Minecraft textures come from the IllyriaResourcePack; do not use external sources unless necessary
+- **Images** — All Minecraft textures come from the `illyria-resourcepack` repository; do not use external sources unless necessary
 - **Tables** — Keep property tables narrow (max 2 columns: Property/Value); wide tables break mobile display
 - **Links** — Always use relative paths for internal links; absolute URLs only for external references
 - **SUMMARY.md** — Must be updated whenever adding/removing pages; it's the mdBook navigation source
@@ -236,13 +236,16 @@ done
 ## Claude Code Workflow
 
 **When creating tasks:**
+
 - Number tasks in the name (e.g., "1. Add Verdance enchantment page", "2. Update Tether documentation")
 - This makes it easy to reference specific tasks in conversation
 
 **After completing each task:**
+
 - Ask the user if they want to git commit the changes or adjust before committing
 
 **After making edits:**
+
 - Always update `SUMMARY.md` if adding/removing pages
 - Verify the build passes with `mdbook build`
 - Ensure markdownlint passes with 0 issues
