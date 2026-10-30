@@ -55,12 +55,7 @@
 </div>
 
 <div class="card recipe-card">
-<span class="card-title">Diamond Recycling<sup>[4]</sup></span>
-<span class="card-desc"><div class="smelting-recipe"><span class="furnace-type" data-tooltip="Only works in a blast furnace"><img src="../img/method/blast_furnace.png" alt="Blast Furnace"></span><span class="cook-time" data-tooltip="Smelting time: 5s"><img class="lit-flame" src="../img/gui/lit_flame.png" alt=""></span><img class="burn-progress" src="../img/gui/burn_progress.png" alt=""><span class="crafting-item pos-input" data-tooltip="Diamond Tool, Weapon, or Armor"><img src="../img/item/diamond_equipment_animated.gif" alt="Diamond Tool, Weapon, or Armor"></span><span class="xp-gain" data-tooltip="Experience: 1.0"><img class="xp-orb" src="../img/item/xp_orb.webp" alt=""></span><span class="crafting-item pos-output" data-tooltip="Diamond"><img src="../img/item/diamond.png" alt="Diamond"></span></div></span>
-</div>
-
-<div class="card recipe-card">
-<span class="card-title">Custom Paintings<sup>[5]</sup></span>
+<span class="card-title">Custom Paintings<sup>[4]</sup></span>
 <span class="card-desc"><div class="stonecutter-recipe"><img class="trade-arrow" src="../img/gui/trade_arrow.png" alt=""><span class="crafting-item" data-tooltip="Painting"><img src="../img/item/painting.png" alt="Painting"></span><span class="furnace-type" data-tooltip="Only works in a stonecutter"><img src="../img/method/stonecutter.png" alt="Stonecutter"></span><span class="crafting-item" data-tooltip="Custom Painting (any variant)"><img src="../img/item/custom_painting_animated.gif" alt="Custom Painting"></span></div></span>
 </div>
 
@@ -71,5 +66,4 @@
 1. **Chainmail Armor** uses vanilla armor crafting patterns with Iron Bars
 2. **Rotten Flesh** can be smelted in a furnace, smoker, or campfire
 3. **Wood to Log** converts wood blocks (e.g. Oak Wood, Crimson Hyphae) back to 4 logs of the same type. Stripped variants also work.
-4. **Diamond Recycling** accepts any diamond tool, weapon, or armor piece (including horse and nautilus armor)
-5. **Custom Paintings** — place any Painting in the stonecutter to choose a custom variant
+4. **Custom Paintings** — place any Painting in the stonecutter to choose a custom variant
