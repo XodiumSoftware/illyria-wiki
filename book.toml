@@ -5,14 +5,14 @@ language = "en"
 
 [preprocessor.variables.variables]
 discord_invite = "https://discord.gg/jusYH9aYUh"
-github_repo = "https://github.com/XodiumSoftware/IllyriaPlus"
+github_repo = "https://github.com/XodiumSoftware/illyria-wiki"
 mc_version = "26.3"
 server_ip = "play.illyria.cc"
 
 [output.html]
 site-url = "https://wiki.illyria.cc/"
-git-repository-url = "https://github.com/XodiumSoftware/IllyriaPlus"
-edit-url-template = "https://github.com/XodiumSoftware/IllyriaPlus/edit/main/IllyriaWiki/{path}"
+git-repository-url = "https://github.com/XodiumSoftware/illyria-wiki"
+edit-url-template = "https://github.com/XodiumSoftware/illyria-wiki/edit/main/illyria-wiki/{path}"
 hash-files = true
 smart-punctuation = true
 default-theme = "rust"
