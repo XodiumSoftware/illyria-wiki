@@ -30,6 +30,10 @@
   - [Anvil Improvements](qol/anvil.md)
   - [Condensing](qol/condensing.md)
 
+# Weapons
+
+- [Overview](weapons/index.md)
+
 # Gameplay Changes
 
 - [Overview](gameplay/index.md)
