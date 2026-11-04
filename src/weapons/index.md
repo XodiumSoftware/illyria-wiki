@@ -53,7 +53,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="card-desc">A staff humming with raw arcane energy. Template drops from Blazes.</span>
 <span class="card-desc">
 <div class="smithing-recipe">
-<span class="crafting-item" data-tooltip="Arcane Staff Upgrade Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Arcane Staff Upgrade Template"></span>
+<span class="crafting-item" data-tooltip="Arcane Staff Upgrade Template&#10;Source: Blaze&#10;Chance: 2.5%"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Arcane Staff Upgrade Template"></span>
 <span class="crafting-item" data-tooltip="Blaze Rod"><img src="../img/item/blaze_rod.png" alt="Blaze Rod"></span>
 <span class="crafting-item" data-tooltip="Amethyst Shard"><img src="../img/item/amethyst_shard.png" alt="Amethyst Shard"></span>
 <span class="crafting-item pos-output" data-tooltip="Arcane Staff"><img src="../img/item/arcane_staff.png" alt="Arcane Staff"></span>
