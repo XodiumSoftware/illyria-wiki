@@ -159,6 +159,11 @@ img.card-icon-atlas {
   box-shadow: none;
 }
 
+a.card.recipe-card:hover {
+  color: var(--sidebar-fg);
+  text-decoration: none;
+}
+
 .card.recipe-card .card-title {
   font-family: "IllyriaRP", monospace;
   font-weight: normal;

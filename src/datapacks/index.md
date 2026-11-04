@@ -2,30 +2,24 @@
 
 Illyria runs curated datapacks to expand gameplay with new advancements and world generation.
 
-## Installed Datapacks
+<div class="card-grid">
 
-| Datapack                                                                                          | Description                                             |
-| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| [BlazeandCave's Advancements Pack](https://modrinth.com/datapack/blazeandcaves-advancements-pack) | Adds 900+ new advancements across all categories        |
-| [Incendium](https://modrinth.com/datapack/incendium)                                              | Complete Nether overhaul with new biomes and structures |
-| [Nullscape](https://modrinth.com/datapack/nullscape)                                              | Complete End overhaul with new biomes and structures    |
+<a class="card" href="https://modrinth.com/datapack/blazeandcaves-advancements-pack" target="_blank">
+<span class="card-title">BlazeandCave's Advancements Pack</span>
+<span class="card-desc">Adds 900+ new advancements across exploration, building, combat, farming, and more.</span>
+</a>
 
-## What They Add
+<a class="card" href="https://modrinth.com/datapack/incendium" target="_blank">
+<span class="card-title">Incendium</span>
+<span class="card-desc">Complete Nether overhaul with new biomes, structures, mobs, and loot.</span>
+</a>
 
-### BlazeandCave's Advancements Pack
+<a class="card" href="https://modrinth.com/datapack/nullscape" target="_blank">
+<span class="card-title">Nullscape</span>
+<span class="card-desc">Complete End overhaul with new biomes and structures.</span>
+</a>
 
-Massively expands the advancement system with hundreds of new challenges spanning exploration, building, combat,
-farming, and more. Check your advancement screen to see all available goals.
-
-### Incendium
-
-Completely overhauls the **Nether** dimension with new biomes, structures, mobs, and loot. The Nether is far more
-dangerous — and rewarding — than vanilla.
-
-### Nullscape
-
-Completely overhauls the **End** dimension with new biomes and structures that make End exploration far more
-interesting after defeating the Ender Dragon.
+</div>
 
 ## Notes
 
