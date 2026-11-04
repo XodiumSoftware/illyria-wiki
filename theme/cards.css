@@ -151,7 +151,7 @@ img.card-icon-atlas {
 
 /* Recipe grid uses a fixed 4-column layout (not the auto-fill of Introduction). */
 .recipe-grid {
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
 .card.recipe-card:hover {
