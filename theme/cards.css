@@ -175,7 +175,7 @@ img.card-icon-atlas {
 }
 
 .card-desc ul {
-  list-style-position: inside;
+  list-style: none;
   padding-left: 0;
   margin-left: 0;
   text-align: left;
