@@ -8,6 +8,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 
 <div class="card recipe-card">
 <span class="card-title">Halberd</span>
+<span class="card-desc">A long polearm designed to keep foes at a distance.</span>
 <span class="card-desc">
 <div class="smithing-recipe">
 <span class="crafting-item" data-tooltip="Halberd Upgrade Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Halberd Upgrade Template"></span>
@@ -16,13 +17,12 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Halberd"><img src="../img/item/halberd.png" alt="Halberd"></span>
 </div>
 </span>
-<span class="card-desc">A long polearm designed to keep foes at a distance.</span>
-<hr>
 <span class="card-desc"><ul><li>10 Attack Damage</li><li>1.2 Attack Speed</li></ul></span>
 </div>
 
 <div class="card recipe-card">
 <span class="card-title">Bluntsword</span>
+<span class="card-desc">A heavy, unsharpened blade that crushes armor and bone.</span>
 <span class="card-desc">
 <div class="smithing-recipe">
 <span class="crafting-item" data-tooltip="Bluntsword Upgrade Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Bluntsword Upgrade Template"></span>
@@ -31,13 +31,12 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Bluntsword"><img src="../img/item/bluntsword.png" alt="Bluntsword"></span>
 </div>
 </span>
-<span class="card-desc">A heavy, unsharpened blade that crushes armor and bone.</span>
-<hr>
 <span class="card-desc"><ul><li>11 Attack Damage</li><li>1.0 Attack Speed</li></ul></span>
 </div>
 
 <div class="card recipe-card">
 <span class="card-title">Greatsword</span>
+<span class="card-desc">An oversized blade built for sweeping, devastating strikes.</span>
 <span class="card-desc">
 <div class="smithing-recipe">
 <span class="crafting-item" data-tooltip="Greatsword Upgrade Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Greatsword Upgrade Template"></span>
@@ -46,13 +45,12 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Greatsword"><img src="../img/item/greatsword.png" alt="Greatsword"></span>
 </div>
 </span>
-<span class="card-desc">An oversized blade built for sweeping, devastating strikes.</span>
-<hr>
 <span class="card-desc"><ul><li>10 Attack Damage</li><li>1.1 Attack Speed</li><li>-5% Movement Speed</li></ul></span>
 </div>
 
 <div class="card recipe-card">
 <span class="card-title">Arcane Staff</span>
+<span class="card-desc">A staff humming with raw arcane energy. Template drops from Blazes.</span>
 <span class="card-desc">
 <div class="smithing-recipe">
 <span class="crafting-item" data-tooltip="Arcane Staff Upgrade Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Arcane Staff Upgrade Template"></span>
@@ -61,8 +59,6 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Arcane Staff"><img src="../img/item/arcane_staff.png" alt="Arcane Staff"></span>
 </div>
 </span>
-<span class="card-desc">A staff humming with raw arcane energy. Template drops from Blazes.</span>
-<hr>
 <span class="card-desc"><ul><li>Vanilla blaze rod stats</li></ul></span>
 </div>
 
