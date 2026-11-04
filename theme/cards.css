@@ -228,6 +228,9 @@ img.card-icon-atlas {
 .card-desc .neg-stat {
   color: #ff5555;
 }
+.card-desc .value-stat {
+  color: #ffff55;
+}
 
 .card.recipe-card .card-desc {
   display: flex;
