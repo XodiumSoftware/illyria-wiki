@@ -51,7 +51,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Greatsword"><img src="../img/item/greatsword.png" alt="Greatsword"></span>
 </div>
 </span>
-<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li>10 Attack Damage</li><li>1.1 Attack Speed</li><li>-5% Movement Speed</li></ul></div></span>
+<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li>12 Attack Damage</li><li>1.1 Attack Speed</li><li>-5% Movement Speed</li></ul></div></span>
 </div>
 
 <div class="card recipe-card">
