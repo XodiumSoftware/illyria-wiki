@@ -67,7 +67,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Arcane Staff"><img src="../img/item/arcane_staff.png" alt="Arcane Staff"></span>
 </div>
 </span>
-<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li>Vanilla blaze rod stats</li></ul></div></span>
+<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li>Right-click to launch a fireball</li><li>0.5s cooldown</li></ul></div></span>
 </div>
 
 </div>
