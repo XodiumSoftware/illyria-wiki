@@ -186,6 +186,14 @@ img.card-icon-atlas {
   margin-left: 0;
 }
 
+.card-desc .stats-title {
+  display: block;
+  width: 100%;
+  text-decoration: underline;
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+
 /* Footnote superscripts shrink inside the pixel font. */
 .card.recipe-card .card-title sup,
 .card.recipe-card .card-title .footnote-reference {
