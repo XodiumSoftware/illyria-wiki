@@ -205,11 +205,10 @@
     visibility 80ms ease;
 }
 
-/* Nested tooltip details inside .crafting-item — rendered as HTML so they can
-   be colored separately from the main tooltip title. */
-.crafting-item .tooltip-detail {
+/* Rich HTML tooltip for items that need multi-line details with separate colors. */
+.crafting-item .tooltip {
   position: absolute;
-  z-index: 1001;
+  z-index: 1000;
   left: 50%;
   bottom: calc(100% + 8px);
   transform: translateX(-50%);
@@ -218,14 +217,15 @@
   max-width: 400px;
   padding: 10px 14px;
 
-  color: #aaa;
-  background: transparent;
+  color: #fff;
+  background: rgb(25 22 21 / 94%);
+  border: 4px solid transparent;
+  border-image: url("/img/gui/tooltip_frame.png") 2 / 4px / 0 stretch;
 
   font-family: "IllyriaRP", sans-serif;
   font-size: 1rem;
   line-height: 1.4;
   text-align: left;
-  white-space: pre-line;
   font-smooth: never;
   -webkit-font-smoothing: none;
   -moz-osx-font-smoothing: unset;
@@ -239,20 +239,19 @@
     visibility 80ms ease;
 }
 
-.crafting-item:hover .tooltip-detail {
+.crafting-item:hover .tooltip {
   opacity: 1;
   visibility: visible;
 }
 
-/* Push the main tooltip title up to make room for the detail block below it. */
-.crafting-item:has(.tooltip-detail)[data-tooltip]::after {
-  bottom: calc(100% + 8px + 3.2em);
-  padding-bottom: 6px;
+.crafting-item .tooltip .tooltip-title {
+  display: block;
+  color: #fff;
 }
 
-.crafting-item .tooltip-detail {
-  padding-top: 0;
-  padding-bottom: 10px;
+.crafting-item .tooltip .tooltip-detail {
+  display: block;
+  color: #aaa;
 }
 
 .cook-time[data-tooltip]:hover::after,
