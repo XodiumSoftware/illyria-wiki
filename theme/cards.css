@@ -186,6 +186,12 @@ img.card-icon-atlas {
   margin-left: 0;
 }
 
+.card-desc .stats-block {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
 .card-desc .stats-title {
   display: block;
   width: 100%;
