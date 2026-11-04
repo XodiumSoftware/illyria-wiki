@@ -35,7 +35,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Bluntsword"><img src="../img/item/bluntsword.png" alt="Bluntsword"></span>
 </div>
 </span>
-<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li>11 Attack Damage</li><li>1.0 Attack Speed</li><li>0 Knockback</li></ul></div></span>
+<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li>11 Attack Damage</li><li>1.0 Attack Speed</li></ul></div></span>
 </div>
 
 <div class="card recipe-card">
