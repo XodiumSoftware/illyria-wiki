@@ -9,6 +9,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <div class="card recipe-card">
 <span class="card-title">Halberd</span>
 <span class="card-desc">A long polearm designed to keep foes at a distance.</span>
+<hr>
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
@@ -24,6 +25,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <div class="card recipe-card">
 <span class="card-title">Bluntsword</span>
 <span class="card-desc">A heavy, unsharpened blade that crushes armor and bone.</span>
+<hr>
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
@@ -39,6 +41,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <div class="card recipe-card">
 <span class="card-title">Greatsword</span>
 <span class="card-desc">An oversized blade built for sweeping, devastating strikes.</span>
+<hr>
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
@@ -54,6 +57,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <div class="card recipe-card">
 <span class="card-title">Arcane Staff</span>
 <span class="card-desc">A staff humming with raw arcane energy. Template drops from Blazes.</span>
+<hr>
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
