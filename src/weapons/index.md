@@ -13,7 +13,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
-<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Halberd Upgrade Template"><span class="tooltip"><span class="tooltip-title">Halberd Upgrade Template</span><span class="tooltip-detail">Source: Piglin Brute&#10;Chance: 1.5% (+0.5% per Looting)</span></span></span>
+<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Halberd Upgrade Template"><span class="tooltip"><span class="tooltip-title">Halberd Upgrade Template</span><span class="tooltip-detail">Source: Piglin Brute<br>Chance: 1.5% (+0.5% per Looting)</span></span></span>
 <span class="crafting-item" data-tooltip="Netherite Spear"><img src="../img/item/netherite_spear.png" alt="Netherite Spear"></span>
 <span class="crafting-item" data-tooltip="Netherite Block"><img src="../img/item/netherite_block.png" alt="Netherite Block"></span>
 <span class="crafting-item pos-output" data-tooltip="Halberd"><img src="../img/item/halberd.png" alt="Halberd"></span>
@@ -29,7 +29,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
-<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Bluntsword Upgrade Template"><span class="tooltip"><span class="tooltip-title">Bluntsword Upgrade Template</span><span class="tooltip-detail">Source: Wither Skeleton&#10;Chance: 1.5% (+0.5% per Looting)</span></span></span>
+<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Bluntsword Upgrade Template"><span class="tooltip"><span class="tooltip-title">Bluntsword Upgrade Template</span><span class="tooltip-detail">Source: Wither Skeleton<br>Chance: 1.5% (+0.5% per Looting)</span></span></span>
 <span class="crafting-item" data-tooltip="Netherite Sword"><img src="../img/item/netherite_sword.png" alt="Netherite Sword"></span>
 <span class="crafting-item" data-tooltip="Netherite Block"><img src="../img/item/netherite_block.png" alt="Netherite Block"></span>
 <span class="crafting-item pos-output" data-tooltip="Bluntsword"><img src="../img/item/bluntsword.png" alt="Bluntsword"></span>
@@ -45,7 +45,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
-<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Greatsword Upgrade Template"><span class="tooltip"><span class="tooltip-title">Greatsword Upgrade Template</span><span class="tooltip-detail">Source: Evoker&#10;Chance: 2% (+0.5% per Looting)</span></span></span>
+<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Greatsword Upgrade Template"><span class="tooltip"><span class="tooltip-title">Greatsword Upgrade Template</span><span class="tooltip-detail">Source: Evoker<br>Chance: 2% (+0.5% per Looting)</span></span></span>
 <span class="crafting-item" data-tooltip="Netherite Sword"><img src="../img/item/netherite_sword.png" alt="Netherite Sword"></span>
 <span class="crafting-item" data-tooltip="Netherite Block"><img src="../img/item/netherite_block.png" alt="Netherite Block"></span>
 <span class="crafting-item pos-output" data-tooltip="Greatsword"><img src="../img/item/greatsword.png" alt="Greatsword"></span>
@@ -61,7 +61,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
-<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Arcane Staff Upgrade Template"><span class="tooltip"><span class="tooltip-title">Arcane Staff Upgrade Template</span><span class="tooltip-detail">Source: Blaze&#10;Chance: 2.5% (+0.5% per Looting)</span></span></span>
+<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Arcane Staff Upgrade Template"><span class="tooltip"><span class="tooltip-title">Arcane Staff Upgrade Template</span><span class="tooltip-detail">Source: Blaze<br>Chance: 2.5% (+0.5% per Looting)</span></span></span>
 <span class="crafting-item" data-tooltip="Blaze Rod"><img src="../img/item/blaze_rod.png" alt="Blaze Rod"></span>
 <span class="crafting-item" data-tooltip="Amethyst Shard"><img src="../img/item/amethyst_shard.png" alt="Amethyst Shard"></span>
 <span class="crafting-item pos-output" data-tooltip="Arcane Staff"><img src="../img/item/arcane_staff.png" alt="Arcane Staff"></span>
