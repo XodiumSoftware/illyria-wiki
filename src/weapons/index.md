@@ -16,7 +16,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Halberd"><img src="../img/item/halberd.png" alt="Halberd"></span>
 </div>
 </span>
-<span class="card-desc">10 Attack Damage · 1.2 Attack Speed</span>
+<span class="card-desc"><ul><li>10 Attack Damage</li><li>1.2 Attack Speed</li></ul></span>
 <span class="card-desc">A long polearm designed to keep foes at a distance.</span>
 </div>
 
@@ -30,7 +30,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Bluntsword"><img src="../img/item/bluntsword.png" alt="Bluntsword"></span>
 </div>
 </span>
-<span class="card-desc">11 Attack Damage · 1.0 Attack Speed</span>
+<span class="card-desc"><ul><li>11 Attack Damage</li><li>1.0 Attack Speed</li></ul></span>
 <span class="card-desc">A heavy, unsharpened blade that crushes armor and bone.</span>
 </div>
 
@@ -44,7 +44,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Greatsword"><img src="../img/item/greatsword.png" alt="Greatsword"></span>
 </div>
 </span>
-<span class="card-desc">10 Attack Damage · 1.1 Attack Speed · -5% Movement Speed</span>
+<span class="card-desc"><ul><li>10 Attack Damage</li><li>1.1 Attack Speed</li><li>-5% Movement Speed</li></ul></span>
 <span class="card-desc">An oversized blade built for sweeping, devastating strikes.</span>
 </div>
 
@@ -58,7 +58,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Arcane Staff"><img src="../img/item/arcane_staff.png" alt="Arcane Staff"></span>
 </div>
 </span>
-<span class="card-desc">Vanilla blaze rod stats</span>
+<span class="card-desc"><ul><li>Vanilla blaze rod stats</li></ul></span>
 <span class="card-desc">A staff humming with raw arcane energy. Template drops from Blazes.</span>
 </div>
 
