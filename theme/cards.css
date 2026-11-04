@@ -186,6 +186,22 @@ img.card-icon-atlas {
   margin-left: 0;
 }
 
+.card-desc .recipe-title {
+  display: block;
+  width: 100%;
+  text-decoration: underline;
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+
+.card-desc .recipe-title {
+  display: block;
+  width: 100%;
+  text-decoration: underline;
+  margin-bottom: 0.25rem;
+  text-align: center;
+}
+
 .card-desc .stats-block {
   display: block;
   width: 100%;
