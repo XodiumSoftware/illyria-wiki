@@ -15,11 +15,6 @@
 # Enchantments
 
 - [Overview](enchantments/index.md)
-  - [Embertread](enchantments/embertread.md)
-  - [Nimbus](enchantments/nimbus.md)
-  - [Tether](enchantments/tether.md)
-  - [Vinemine](enchantments/vinemine.md)
-  - [Vanilla Tweaks](enchantments/vanilla-tweaks.md)
 
 # Quality of Life
 
