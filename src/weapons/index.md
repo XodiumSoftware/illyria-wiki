@@ -25,7 +25,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="card-desc">
 <div class="smithing-recipe">
 <span class="crafting-item" data-tooltip="Bluntsword Upgrade Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Bluntsword Upgrade Template"></span>
-<span class="crafting-item" data-tooltip="Netherite Axe"><img src="../img/item/netherite_axe.png" alt="Netherite Axe"></span>
+<span class="crafting-item" data-tooltip="Netherite Sword"><img src="../img/item/netherite_sword.png" alt="Netherite Sword"></span>
 <span class="crafting-item" data-tooltip="Netherite Block"><img src="../img/item/netherite_block.png" alt="Netherite Block"></span>
 <span class="crafting-item pos-output" data-tooltip="Bluntsword"><img src="../img/item/bluntsword.png" alt="Bluntsword"></span>
 </div>
