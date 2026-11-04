@@ -222,6 +222,13 @@ img.card-icon-atlas {
   font-size: 0.6em;
 }
 
+.card-desc .pos-stat {
+  color: #55ff55;
+}
+.card-desc .neg-stat {
+  color: #ff5555;
+}
+
 .card.recipe-card .card-desc {
   display: flex;
   justify-content: center;
