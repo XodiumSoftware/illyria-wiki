@@ -254,6 +254,18 @@
   color: #aaa;
 }
 
+.crafting-item .tooltip .tooltip-detail .tooltip-label {
+  color: #aaa;
+}
+
+.crafting-item .tooltip .tooltip-detail .value-stat {
+  color: #ffff55;
+}
+
+.crafting-item .tooltip .tooltip-detail .pos-stat {
+  color: #55ff55;
+}
+
 .cook-time[data-tooltip]:hover::after,
 .crafting-item[data-tooltip]:hover::after,
 .furnace-type[data-tooltip]:hover::after,
