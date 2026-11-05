@@ -9,6 +9,11 @@ Illyria runs curated datapacks to expand gameplay with new advancements and worl
 <span class="card-desc">Adds 900+ new advancements across exploration, building, combat, farming, and more.</span>
 </a>
 
+<a class="card" href="https://modrinth.com/datapack/cave-horror-datapack" target="_blank">
+<span class="card-title">Cave Horror</span>
+<span class="card-desc">Random terrors stalk you in dark caves — whispers, darkness, the Watcher, and more.</span>
+</a>
+
 <a class="card" href="https://modrinth.com/datapack/incendium" target="_blank">
 <span class="card-title">Incendium</span>
 <span class="card-desc">Complete Nether overhaul with new biomes, structures, mobs, and loot.</span>
