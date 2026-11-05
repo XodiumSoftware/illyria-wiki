@@ -24,8 +24,10 @@ Mannequins you own that are within **24 blocks** of each other form a squad and 
 - **Surrounding** — squad members spread out evenly around the target on a 1.6-block ring instead
   of stacking on the same spot, so a group of four actually encircles its target.
 - **Threat** — a monster's score grows the closer it is to any member, and jumps sharply when it
-  damages a mannequin or you. Scores fade over time, so the squad gradually drops a target that
-  fled and returns to whatever is actually threatening it.
+  damages a mannequin or you, or when you attack it. Scores fade over time, so the squad
+  gradually drops a target that fled and returns to whatever is actually threatening it.
+- **Respecting your hits** — what you attack outranks nearby monsters, so the squad joins your
+  target instead of wandering off to something that merely happens to be close.
 - **Staying focused** — the squad only switches target when a new threat clearly outweighs the
   current one, which stops it from ping-ponging between two equally dangerous mobs.
 - **Staggered attacks** — squad members start their attack timers at slightly different offsets,
