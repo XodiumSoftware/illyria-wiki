@@ -1,17 +1,31 @@
 # IllyriaWiki – justfile for common documentation tasks
 # Run `just` to see all available recipes
+#
+# Cross-platform: `just` uses sh on Unix and PowerShell on Windows.
+
+[windows]
+set shell := ["powershell.exe", "-NoProfile", "-Command"]
 
 # Default recipe (shows this list)
-list:
+_default:
     @just --list
+
+# Alias kept for muscle memory
+alias list := _default
 
 # Build the wiki
 build:
     mdbook build
 
 # Build and open in browser
+[unix]
 open: build
-    xdg-open book/index.html 2>/dev/null || open book/index.html 2>/dev/null || start book/index.html
+    xdg-open book/index.html >/dev/null 2>&1 || open book/index.html >/dev/null 2>&1 || echo "Open book/index.html manually"
+
+# Build and open in browser
+[windows]
+open: build
+    Start-Process book/index.html
 
 # Serve with live-reload on port 3000
 serve:
@@ -37,19 +51,31 @@ clean:
     mdbook clean
 
 # Setup dependencies (requires cargo and npm)
+[unix]
 setup:
-    @echo "Installing mdBook..."
     cargo install mdbook
-    @echo "Installing markdownlint-cli2..."
     npm install -g markdownlint-cli2
-    @echo "✅ Setup complete!"
+    echo "Setup complete!"
+
+# Setup dependencies (requires cargo and npm)
+[windows]
+setup:
+    cargo install mdbook
+    npm install -g markdownlint-cli2
+    Write-Host "Setup complete!"
 
 # Clone IllyriaPlus as sibling (for wiki-sync reference)
+[unix]
 setup-reference:
     #!/usr/bin/env sh
     if [ ! -d "../IllyriaPlus" ]; then
         git clone git@github.com:XodiumSoftware/IllyriaPlus.git ../IllyriaPlus
-        echo "✅ IllyriaPlus cloned as sibling directory"
+        echo "IllyriaPlus cloned as sibling directory"
     else
-        echo "ℹ️  IllyriaPlus already exists"
+        echo "IllyriaPlus already exists"
     fi
+
+# Clone IllyriaPlus as sibling (for wiki-sync reference)
+[windows]
+setup-reference:
+    if (-not (Test-Path "../IllyriaPlus")) { git clone git@github.com:XodiumSoftware/IllyriaPlus.git ../IllyriaPlus; Write-Host "IllyriaPlus cloned as sibling directory" } else { Write-Host "IllyriaPlus already exists" }
