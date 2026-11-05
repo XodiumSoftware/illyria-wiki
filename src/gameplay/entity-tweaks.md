@@ -2,11 +2,11 @@
 
 Quality-of-life adjustments to mobs and ambient entities.
 
-## Silencing Mobs <img class="mc-icon" alt="" src="../img/item/amethyst_shard.png">
+## Silencing Mobs <img class="mc-icon" alt="" src="../img/item/echo_shard.png">
 
-Silence any non-hostile mob by clicking it with an **Amethyst Shard**.
+Silence any non-hostile mob by clicking it with an **Echo Shard**.
 
-1. Hold an **Amethyst Shard** in your hand.
+1. Hold an **Echo Shard** in your hand.
 2. **Right-click the mob** — the shard is consumed and the mob's sounds toggle off.
 3. Right-click again with another shard to un-silence it.
 

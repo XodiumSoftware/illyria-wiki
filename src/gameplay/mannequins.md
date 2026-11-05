@@ -9,7 +9,11 @@ has its own page in the [Mannequins](../mannequins/index.md) section.
 ## Spawning
 
 Run `/mannequins` (or `/mannequins <player>` as an operator) to open the mannequin list, then use
-the **Spawn Mannequin** button to place one at your location. You become its owner.
+the **Spawn Mannequin** button to place one at your location. You become its owner (operators
+only).
+
+In survival, **sneak + right-click a villager with an Amethyst Shard** for a **33%** chance to turn
+it into a mannequin owned by you. The shard is consumed on every attempt.
 
 ## Editing
 
