@@ -476,6 +476,13 @@
   -webkit-user-drag: none;
 }
 
+/* Animated textures ship as vertical frame strips (e.g. dragon_egg is 16x112).
+   Show only the first frame instead of squashing the whole strip into the slot. */
+.smithing-recipe .crafting-item img.card-icon-atlas {
+  object-fit: cover;
+  object-position: top;
+}
+
 .smithing-recipe .pos-output {
   margin-left: 8px;
 }
