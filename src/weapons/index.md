@@ -75,20 +75,19 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 <span class="card-title">Nullspire</span>
 <span class="card-desc">A needle of collapsed void, its violet core humming with nothingness.</span>
 <hr>
-<!-- TODO: Nullspire has no acquisition recipe yet (see NullspireItem). Replace this block once a
-     smithing template + recipe exist. -->
+<!-- TODO: src/img/item/nullspire.png is missing. Copy it from the resource pack texture once it
+     exists. -->
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
-<span class="crafting-item" data-tooltip="TODO"><img src="../img/item/todo.png" alt="TODO"></span>
-<span class="crafting-item" data-tooltip="TODO"><img src="../img/item/todo.png" alt="TODO"></span>
-<span class="crafting-item" data-tooltip="TODO"><img src="../img/item/todo.png" alt="TODO"></span>
-<!-- TODO: src/img/item/nullspire.png is missing. Copy it from the resource pack texture once it
-     exists. -->
+<span class="crafting-item" data-tooltip="Netherite Upgrade Smithing Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Netherite Upgrade Smithing Template"></span>
+<span class="crafting-item" data-tooltip="Netherite Sword"><img src="../img/item/netherite_sword.png" alt="Netherite Sword"></span>
+<span class="crafting-item" data-tooltip="Dragon Egg"><img src="../img/item/dragon_egg.png" alt="Dragon Egg"></span>
 <span class="crafting-item pos-output" data-tooltip="Nullspire (texture pending)"><img src="../img/item/nullspire.png" alt="Nullspire"></span>
 </div>
 </span>
 <span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">20</span> Attack Damage</li><li><span class="value-stat">3.0</span> Attack Speed</li><li><span class="pos-stat">+1</span> Knockback</li><li><span class="pos-stat">+2</span> Reach</li><li><span class="pos-stat">+20%</span> Movement Speed</li></ul></div></span>
+<span class="card-desc"><div class="stats-block"><span class="stats-title">Abilities</span><ul><li>Blinds the target for <span class="value-stat">3s</span> on hit</li></ul></div></span>
 </div>
 
 </div>
