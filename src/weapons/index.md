@@ -6,7 +6,7 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 
 <div class="card-grid recipe-grid">
 
-<div class="card recipe-card">
+<div class="card recipe-card rarity-rare">
 <span class="card-title">Halberd</span>
 <span class="card-desc">A long polearm designed to keep foes at a distance.</span>
 <hr>
@@ -22,7 +22,7 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 <span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">9</span> Attack Damage</li><li><span class="value-stat">1.8</span> Attack Speed</li><li><span class="pos-stat">+2</span> Knockback</li></ul></div></span>
 </div>
 
-<div class="card recipe-card">
+<div class="card recipe-card rarity-rare">
 <span class="card-title">Bluntsword</span>
 <span class="card-desc">A heavy, unsharpened blade that crushes armor and bone.</span>
 <hr>
@@ -38,7 +38,7 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 <span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">10</span> Attack Damage</li><li><span class="value-stat">1.6</span> Attack Speed</li></ul></div></span>
 </div>
 
-<div class="card recipe-card">
+<div class="card recipe-card rarity-rare">
 <span class="card-title">Greatsword</span>
 <span class="card-desc">An oversized blade built for sweeping, devastating strikes.</span>
 <hr>
@@ -54,7 +54,7 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 <span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">12</span> Attack Damage</li><li><span class="value-stat">1.3</span> Attack Speed</li><li><span class="neg-stat">-5%</span> Movement Speed</li><li><span class="pos-stat">+1</span> Knockback</li></ul></div></span>
 </div>
 
-<div class="card recipe-card">
+<div class="card recipe-card rarity-legendary">
 <span class="card-title">Arcane Staff</span>
 <span class="card-desc">A staff humming with raw arcane energy. Crafted with a Netherite Upgrade Smithing Template.</span>
 <hr>
@@ -71,7 +71,7 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 <span class="card-desc"><div class="stats-block"><span class="stats-title">Abilities</span><ul><li>Right-click to launch a fireball</li><li><span class="value-stat">0.5s</span> cooldown</li></ul></div></span>
 </div>
 
-<div class="card recipe-card">
+<div class="card recipe-card rarity-mythic">
 <span class="card-title">Nullspire</span>
 <span class="card-desc">A needle of collapsed void, its violet core humming with nothingness.</span>
 <hr>

@@ -237,6 +237,38 @@ a.card.recipe-card:hover {
   color: #ffff55;
 }
 
+/* Rarity glow: a colored halo around the card frame, keyed per weapon rarity. */
+.card.recipe-card.rarity-rare {
+  --rarity-color: #ffff55;
+}
+
+.card.recipe-card.rarity-legendary {
+  --rarity-color: #ff55ff;
+}
+
+.card.recipe-card.rarity-mythic {
+  --rarity-color: #ffaa00;
+}
+
+.card.recipe-card[class*="rarity-"] {
+  box-shadow:
+    0 0 6px 1px color-mix(in srgb, var(--rarity-color) 55%, transparent),
+    0 0 18px 2px color-mix(in srgb, var(--rarity-color) 25%, transparent);
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+}
+
+.card.recipe-card[class*="rarity-"]:hover {
+  box-shadow:
+    0 0 10px 2px color-mix(in srgb, var(--rarity-color) 75%, transparent),
+    0 0 28px 4px color-mix(in srgb, var(--rarity-color) 40%, transparent);
+}
+
+.card.recipe-card[class*="rarity-"] .card-title {
+  color: var(--rarity-color);
+}
+
 .card.recipe-card .card-desc {
   display: flex;
   justify-content: center;
