@@ -12,8 +12,9 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 <span class="card-title">Nullspire</span>
 <span class="card-desc">A needle of collapsed void, its violet core humming with nothingness.</span>
 <hr>
-<!-- TODO: src/img/item/nullspire.png is missing. Copy it from the resource pack texture once it
-     exists. -->
+<!-- TODO: src/img/item/nullspire.png currently uses the vanilla netherite spear texture as a
+     placeholder (the Nullspire model inherits from minecraft:item/netherite_spear). Replace it
+     with the real illyriacore:item/weapons/nullspire texture once it exists. -->
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
