@@ -4,6 +4,8 @@
 
 Illyria adds custom weapons, crafted at a smithing table with an upgrade template.
 
+<sub>Rarity: <span class="legend-rarity rarity-rare">Rare</span> · <span class="legend-rarity rarity-legendary">Legendary</span> · <span class="legend-rarity rarity-mythic">Mythic</span></sub>
+
 <div class="card-grid recipe-grid">
 
 <div class="card recipe-card rarity-mythic">
