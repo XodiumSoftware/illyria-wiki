@@ -67,7 +67,7 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
-<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Greatsword Upgrade Template"><span class="tooltip"><span class="tooltip-title">Greatsword Upgrade Template</span><span class="tooltip-detail"><span class="tooltip-label">Source:</span> Evoker<br><span class="tooltip-label">Chance:</span> <span class="value-stat">2%</span> (<span class="pos-stat">+0.5%</span> per Looting)</span></span></span>
+<span class="crafting-item" data-tooltip="Netherite Upgrade Smithing Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Netherite Upgrade Smithing Template"></span>
 <span class="crafting-item" data-tooltip="Netherite Sword"><img src="../img/item/netherite_sword.png" alt="Netherite Sword"></span>
 <span class="crafting-item" data-tooltip="Netherite Block"><img src="../img/item/netherite_block.png" alt="Netherite Block"></span>
 <span class="crafting-item pos-output" data-tooltip="Greatsword"><img src="../img/item/greatsword.png" alt="Greatsword"></span>
@@ -83,7 +83,7 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
-<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Halberd Upgrade Template"><span class="tooltip"><span class="tooltip-title">Halberd Upgrade Template</span><span class="tooltip-detail"><span class="tooltip-label">Source:</span> Piglin Brute<br><span class="tooltip-label">Chance:</span> <span class="value-stat">1.5%</span> (<span class="pos-stat">+0.5%</span> per Looting)</span></span></span>
+<span class="crafting-item" data-tooltip="Netherite Upgrade Smithing Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Netherite Upgrade Smithing Template"></span>
 <span class="crafting-item" data-tooltip="Netherite Spear"><img src="../img/item/netherite_spear.png" alt="Netherite Spear"></span>
 <span class="crafting-item" data-tooltip="Netherite Block"><img src="../img/item/netherite_block.png" alt="Netherite Block"></span>
 <span class="crafting-item pos-output" data-tooltip="Halberd"><img src="../img/item/halberd.png" alt="Halberd"></span>
