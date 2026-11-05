@@ -21,13 +21,13 @@ Once targeted, the monster behaves normally toward the mannequin:
   entrance, but it will also get attacked while you are away.
 - Monsters pulled by a mannequin follow it, so a following mannequin can drag a small crowd of
   monsters to you. Defensive mannequins stop and shield up, which usually holds them in place.
-- Fleeing mannequins still attract attention, because targeting happens independently of combat
-  mode.
+- Fleeing mannequins are never targeted, so they can walk past a horde without being attacked.
 
 ## Notes
 
 - Only monsters without a current target are pulled; a monster already fighting a player or
   another mannequin ignores the decoy.
+- Fleeing mannequins are skipped entirely, so a squad of fleeing mannequins is ignored by monsters.
 - To stop your own mannequin from being attacked, keep it inside a well-lit, enclosed area, or
   equip it with armor and a shield.
 - See [Combat](combat.md) for how a mannequin responds once a monster lands the first hit.

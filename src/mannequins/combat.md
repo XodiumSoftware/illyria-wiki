@@ -6,21 +6,39 @@ Mannequins choose how aggressively they engage nearby monsters, and always back 
 
 Set the mode per mannequin in the edit dialog.
 
-| Mode       | Behavior                                                                  |
-| ---------- | ------------------------------------------------------------------------- |
-| Aggressive | Attacks the nearest monster within 12 blocks without waiting to be hit    |
-| Defensive  | Stops moving and raises its shield near monsters, fights only when struck |
-| Fleeing    | Ignores monsters entirely and keeps following the owner                   |
+| Mode       | Behavior                                                                      |
+| ---------- | ----------------------------------------------------------------------------- |
+| Aggressive | Attacks the nearest monster within 12 blocks without waiting to be hit        |
+| Defensive  | Stops moving and raises its shield near monsters, fights only when struck     |
+| Fleeing    | Ignores monsters entirely, is not targeted by them, and keeps following owner |
 
 Monsters within 12 blocks are rescanned every second, so a mannequin leaves combat shortly after
 the threat dies, escapes, or turns invisible.
+
+## Groups
+
+Mannequins you own that are within **24 blocks** of each other form a squad and fight as one.
+
+- **Focus fire** — the squad commits to a single target, the most threatening one it can see,
+  instead of splitting up.
+- **Surrounding** — squad members spread out evenly around the target on a 1.6-block ring instead
+  of stacking on the same spot, so a group of four actually encircles its target.
+- **Threat** — a monster's score grows the closer it is to any member, and jumps sharply when it
+  damages a mannequin or you. Scores fade over time, so the squad gradually drops a target that
+  fled and returns to whatever is actually threatening it.
+- **Staying focused** — the squad only switches target when a new threat clearly outweighs the
+  current one, which stops it from ping-ponging between two equally dangerous mobs.
+- **Staggered attacks** — squad members start their attack timers at slightly different offsets,
+  so archers do not all fire on the same tick.
+
+Mannequins further than 24 blocks away from a squad do not join the fight.
 
 ## Defending & Assisting
 
 Independently of the combat mode (except Fleeing), mannequins also:
 
-- **Retaliate** — whatever damages the mannequin becomes its target.
-- **Assist** — when you damage something, your mannequins join the fight.
+- **Retaliate** — whatever damages the mannequin becomes the squad's target.
+- **Assist** — when you damage something, nearby mannequins join the fight.
 - **Defend** — when something damages you, your mannequins attack the aggressor.
 
 Mannequins never attack you or other mannequins owned by the same player.

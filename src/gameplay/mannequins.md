@@ -28,6 +28,8 @@ leggings, boots, main hand, off hand, and an arrow slot for ranged weapons.
 - **Movement** — follows you like a tamed wolf, or stays anchored to a set spot.
 - **Combat** — Aggressive, Defensive (default), or Fleeing; mannequins retaliate, assist your
   attacks, and defend you.
+- **Squads** — mannequins within 24 blocks of each other focus-fire a single target and spread out
+  to surround it.
 - **Weapons** — swords, tridents (thrown with Loyalty), bows and crossbows (kite and shoot), and
   lunging spear attacks.
 - **Head tracking** — looks at the nearest entity within 8 blocks.
