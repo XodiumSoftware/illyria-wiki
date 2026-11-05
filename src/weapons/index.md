@@ -45,22 +45,6 @@ Illyria adds custom weapons, crafted at a smithing table with an upgrade templat
 </div>
 
 <div class="card recipe-card rarity-rare">
-<span class="card-title">Bluntsword</span>
-<span class="card-desc">A heavy, unsharpened blade that crushes armor and bone.</span>
-<hr>
-<span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
-<span class="card-desc">
-<div class="smithing-recipe">
-<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Bluntsword Upgrade Template"><span class="tooltip"><span class="tooltip-title">Bluntsword Upgrade Template</span><span class="tooltip-detail"><span class="tooltip-label">Source:</span> Wither Skeleton<br><span class="tooltip-label">Chance:</span> <span class="value-stat">1.5%</span> (<span class="pos-stat">+0.5%</span> per Looting)</span></span></span>
-<span class="crafting-item" data-tooltip="Netherite Sword"><img src="../img/item/netherite_sword.png" alt="Netherite Sword"></span>
-<span class="crafting-item" data-tooltip="Netherite Block"><img src="../img/item/netherite_block.png" alt="Netherite Block"></span>
-<span class="crafting-item pos-output" data-tooltip="Bluntsword"><img src="../img/item/bluntsword.png" alt="Bluntsword"></span>
-</div>
-</span>
-<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">10</span> Attack Damage</li><li><span class="value-stat">1.6</span> Attack Speed</li></ul></div></span>
-</div>
-
-<div class="card recipe-card rarity-rare">
 <span class="card-title">Greatsword</span>
 <span class="card-desc">An oversized blade built for sweeping, devastating strikes.</span>
 <hr>

@@ -80,5 +80,5 @@ Illyria is a vanilla-plus Minecraft survival server with RPG flavor:
 
 - <img class="mc-icon" alt="" src="img/item/enchanted_book.png"> **Unique enchantments** like Vinemine (vein mining) and Embertread (lava walker)
 - <img class="mc-icon" alt="" src="img/item/name_tag.png"> **Quality-of-life features** — nicknames, XP bottling, and more
-- <img class="mc-icon" alt="" src="img/item/halberd.png"> **Custom weapons** — halberds, greatswords, bluntswords, and more
+- <img class="mc-icon" alt="" src="img/item/halberd.png"> **Custom weapons** — halberds, greatswords, arcane staffs, and more
 - <img class="mc-icon mc-icon-atlas" alt="" src="img/item/ender_eye.png"> **Mod support** for Xaero's maps and Fabric/JEI users
