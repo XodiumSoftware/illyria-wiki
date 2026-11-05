@@ -2,7 +2,7 @@
 
 # Weapons
 
-Illyria adds custom weapons, each crafted at a smithing table using a unique upgrade template.
+Illyria adds custom weapons, crafted at a smithing table with an upgrade template.
 
 <div class="card-grid recipe-grid">
 
@@ -19,7 +19,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Halberd"><img src="../img/item/halberd.png" alt="Halberd"></span>
 </div>
 </span>
-<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">10</span> Attack Damage</li><li><span class="value-stat">1.2</span> Attack Speed</li><li><span class="pos-stat">+2</span> Knockback</li></ul></div></span>
+<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">9</span> Attack Damage</li><li><span class="value-stat">1.8</span> Attack Speed</li><li><span class="pos-stat">+2</span> Knockback</li></ul></div></span>
 </div>
 
 <div class="card recipe-card">
@@ -35,7 +35,7 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Bluntsword"><img src="../img/item/bluntsword.png" alt="Bluntsword"></span>
 </div>
 </span>
-<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">11</span> Attack Damage</li><li><span class="value-stat">1.0</span> Attack Speed</li></ul></div></span>
+<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">10</span> Attack Damage</li><li><span class="value-stat">1.6</span> Attack Speed</li></ul></div></span>
 </div>
 
 <div class="card recipe-card">
@@ -51,23 +51,44 @@ Illyria adds custom weapons, each crafted at a smithing table using a unique upg
 <span class="crafting-item pos-output" data-tooltip="Greatsword"><img src="../img/item/greatsword.png" alt="Greatsword"></span>
 </div>
 </span>
-<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">12</span> Attack Damage</li><li><span class="value-stat">1.1</span> Attack Speed</li><li><span class="neg-stat">-5%</span> Movement Speed</li><li><span class="pos-stat">+1</span> Knockback</li></ul></div></span>
+<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">12</span> Attack Damage</li><li><span class="value-stat">1.3</span> Attack Speed</li><li><span class="neg-stat">-5%</span> Movement Speed</li><li><span class="pos-stat">+1</span> Knockback</li></ul></div></span>
 </div>
 
 <div class="card recipe-card">
 <span class="card-title">Arcane Staff</span>
-<span class="card-desc">A staff humming with raw arcane energy. Template drops from Blazes.</span>
+<span class="card-desc">A staff humming with raw arcane energy. Crafted with a Netherite Upgrade Smithing Template.</span>
 <hr>
 <span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
 <span class="card-desc">
 <div class="smithing-recipe">
-<span class="crafting-item"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Arcane Staff Upgrade Template"><span class="tooltip"><span class="tooltip-title">Arcane Staff Upgrade Template</span><span class="tooltip-detail"><span class="tooltip-label">Source:</span> Blaze<br><span class="tooltip-label">Chance:</span> <span class="value-stat">2.5%</span> (<span class="pos-stat">+0.5%</span> per Looting)</span></span></span>
+<span class="crafting-item" data-tooltip="Netherite Upgrade Smithing Template"><img src="../img/item/netherite_upgrade_smithing_template.png" alt="Netherite Upgrade Smithing Template"></span>
 <span class="crafting-item" data-tooltip="Blaze Rod"><img src="../img/item/blaze_rod.png" alt="Blaze Rod"></span>
 <span class="crafting-item" data-tooltip="Amethyst Shard"><img src="../img/item/amethyst_shard.png" alt="Amethyst Shard"></span>
 <span class="crafting-item pos-output" data-tooltip="Arcane Staff"><img src="../img/item/arcane_staff.png" alt="Arcane Staff"></span>
 </div>
 </span>
+<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="pos-stat">+4</span> Armor Toughness</li><li><span class="pos-stat">+40%</span> Knockback Resistance</li></ul></div></span>
 <span class="card-desc"><div class="stats-block"><span class="stats-title">Abilities</span><ul><li>Right-click to launch a fireball</li><li><span class="value-stat">0.5s</span> cooldown</li></ul></div></span>
+</div>
+
+<div class="card recipe-card">
+<span class="card-title">Nullspire</span>
+<span class="card-desc">A needle of collapsed void, its violet core humming with nothingness.</span>
+<hr>
+<!-- TODO: Nullspire has no acquisition recipe yet (see NullspireItem). Replace this block once a
+     smithing template + recipe exist. -->
+<span class="card-desc"><span class="recipe-title">Smithing Recipe</span></span>
+<span class="card-desc">
+<div class="smithing-recipe">
+<span class="crafting-item" data-tooltip="TODO"><img src="../img/item/todo.png" alt="TODO"></span>
+<span class="crafting-item" data-tooltip="TODO"><img src="../img/item/todo.png" alt="TODO"></span>
+<span class="crafting-item" data-tooltip="TODO"><img src="../img/item/todo.png" alt="TODO"></span>
+<!-- TODO: src/img/item/nullspire.png is missing. Copy it from the resource pack texture once it
+     exists. -->
+<span class="crafting-item pos-output" data-tooltip="Nullspire (texture pending)"><img src="../img/item/nullspire.png" alt="Nullspire"></span>
+</div>
+</span>
+<span class="card-desc"><div class="stats-block"><span class="stats-title">Stats</span><ul><li><span class="value-stat">20</span> Attack Damage</li><li><span class="value-stat">3.0</span> Attack Speed</li><li><span class="pos-stat">+1</span> Knockback</li><li><span class="pos-stat">+2</span> Reach</li><li><span class="pos-stat">+20%</span> Movement Speed</li></ul></div></span>
 </div>
 
 </div>
