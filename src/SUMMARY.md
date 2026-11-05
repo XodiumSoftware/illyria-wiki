@@ -41,6 +41,15 @@
   - [Pet Transfer](gameplay/tameable.md)
   - [Tree Mechanics](gameplay/trees.md)
 
+# Mannequins
+
+- [Overview](mannequins/index.md)
+  - [Spawning & Editing](mannequins/spawning.md)
+  - [Combat](mannequins/combat.md)
+  - [Weapons](mannequins/weapons.md)
+  - [Movement & Tracking](mannequins/movement.md)
+  - [Monster Attention](mannequins/monsters.md)
+
 # Recipes
 
 - [Overview](recipes/index.md)
